@@ -2,114 +2,61 @@
   width: 100%;
   height: 100vh;
 }
-
 /* ===================================================================================================================================================== 
  ===================================================================================================================================================== */
-
 .b_div_sol {
   padding: 10px;
   width: 20.8%;
+  position: fixed;
   background: rgb(248, 244, 255);
   flex: 0 0 20% !important;
 }
-
 .b_logo_sol img {
   position: relative;
   width: 35%;
   margin-left: 17%;
 }
-
 .b_button_menu {
   display: grid;
   margin-left: 20px;
   margin-top: 40px;
-  margin-bottom: 45px;
-}
+  margin-bottom: 108px;
 
+}
 .b_button_menu a {
   color: rgb(121, 121, 121);
-  padding: 11px 15px;
-  border-radius: 10px;
-  font-size: 14px;
-  width: 85%;
-  margin-top: -10px;
-  margin-left: 5%;
+    padding: 11px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 85%;
+    margin-top: -20px;
+    margin-left: 5%;
 }
-
 .b_button_menu_active {
   background: #503e9d;
-  border: 1px solid #fff;
   color: white !important;
 }
-
 .b_sol_delivery {
-  margin-top: -20%;
-  margin-bottom: -70%;
-  margin-left: -3%;
+  margin-top: -65%;
+  margin-bottom: -87%;
+  margin-left: 5%;
 }
-
 .b_sol_delivery_src_1 {
   margin: 20px 0px;
 }
-
 a:hover {
   color: rgb(34, 10, 71) !important;
   text-decoration: none !important;
 }
-
 .b_sol_user {
-  margin-top: 50%;
+  margin-top: 20vh;
 }
-
 .b_sol_user img {
   width: 90%;
   margin-left: 5%;
 }
-
-/* @media only screen and (max-width: 937px) {
-  .b_sol_delivery {
-    display: none;
-  }
-
-  .b_sol_delivery h6,
-  p {
-    font-size: 9px;
-  }
-
-  .b_sol_user img {
-    margin-top: 170px;
-    margin-bottom: -10px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1124px) {
-  .b_sol_delivery {
-    position: relative;
-    left: -4%;
-    width: 150px;
-    height: 180px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 10px;
-    margin-top: -40px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-  .b_sol_delivery h6,
-  p {
-    font-size: 10px;
-    margin-top: -10px;
-  }
-
-  
-} */
-
 /* ===================================================================================================================================================== 
  ===================================================================================================================================================== */
-
 .b_div_sag_ilkdiv {
   display: flex;
   text-decoration: none;
@@ -117,7 +64,6 @@ a:hover {
   align-items: baseline;
   height: 15vh;
 }
-
 .b_input {
   display: flex;
   border: 1px solid #e4e4e4;
@@ -126,7 +72,6 @@ a:hover {
   background: #faf7f7;
   border-radius: 8px;
 }
-
 .b_input input {
   font-size: 13px;
   padding: 7px 20px;
@@ -134,53 +79,67 @@ a:hover {
   border: none;
   background: #faf7f7;
 }
-
 select {
   word-wrap: normal;
   border: none;
   margin-right: 20px !important;
 }
-
-.b_filter_icon {
-  border-radius: 7px;
+.buttons {
+  display: flex;
+  align-items: center;
 }
-
-.b_sebet_icon {
-  background-color: #ff8800;
-  color: white;
-  border-radius: 7px;
+.buttons svg {
+  width: 48px !important;
+  height: 48px !important;
+  margin-left: 5px;
 }
-
 .b_div_sag {
-  height: 15vh;
+  width: 74%;
+  margin-left: 23%;
 }
-
 /* ===================================================================================================================================================== 
  ===================================================================================================================================================== */
-
+.explore_catagories_div {
+  display: flex;
+}
 .explore_catagories_boxs {
   width: 130px;
   margin: 13px;
-}
+  margin-right: 20px;
 
+}
 .explore_catagories_div {
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
+.explore_Product_line1 {
+  display: flex;
+}
+.explore_Product_line2 {
+  display: flex;
 
+}
 /* ===================================================================================================================================================== 
  ===================================================================================================================================================== */
-
+.FEATURED_Product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.FEATURED_Product_line1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.FEATURED_Product_line2 {
+  display: flex;
+}
 .featured_product {
   display: flex;
 }
-
 .featured_product_img img {
   width: 96px;
   border-radius: 13px;
 }
-
 .featured_product_location {
-
   width: 200px;
   text-align: justify;
   padding: 7px 0px 0px 5px;
@@ -198,10 +157,234 @@ select {
   width: 300px;
 }
 
-.asian_box span{
+.asian_box span {
   display: flex;
   justify-content: space-between;
   padding: 6px;
   font-size: 14px;
   font-weight: bold;
+}
+
+/* =============================================================TELEFON===================================================================================== */
+/* =============================================================TELEFON===================================================================================== */
+/* =============================================================TELEFON===================================================================================== */
+@media only screen and (max-width: 425px) {
+  select {
+    display: none;
+  }
+  .b_div_sol {
+    padding: 10px;
+    width: 24%;
+    position: fixed;
+    background: rgb(248, 244, 255);
+    flex: 0 0 20% !important;
+  }
+  .b_logo_sol img {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+  }
+  .b_button_menu {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .b_button_menu a {
+    color: rgb(121, 121, 121);
+    padding: 11px 15px;
+    border-radius: 10px;
+    width: 48px;
+  }
+
+  .b_button_menu span {
+    display: none;
+  }
+
+  .b_sol_delivery {
+    display: none;
+  }
+
+  .select {
+    display: none;
+  }
+
+  .b_div_sag {
+    width: 72%;
+    margin-left: 24%;
+  }
+
+  .b_input input {
+    display: none;
+  }
+
+  .b_input {
+    padding: 15px;
+    border-radius: 7px;
+    margin-left: 5%;
+  }
+
+  .b_div_sag_ilkdiv {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+
+  .b_sol_user {
+    margin-top: 23vh;
+  }
+
+  .b_sol_user img {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  h5 {
+    font-size: 15px !important;
+  }
+
+  .header a {
+    position: relative;
+    left: 17%;
+  }
+
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+
+  .explore_catagories_boxs {
+    width: 130px;
+    margin: 13px;
+  }
+
+  .explore_catagories_div {
+    display: flex;
+    overflow: auto;
+    width: 112%;
+  }
+
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+  .FEATURED_Product {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+
+  .asian_boxs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 20px;
+  }
+  .asian_boxs img{
+    width: 335px;
+  }
+}
+
+/* =============================================================TABLET===================================================================================== */
+/* =============================================================TABLET===================================================================================== */
+/* =============================================================TABLET===================================================================================== */
+@media only screen and (max-width: 768px) {
+  select {
+    display: none;
+  }
+  .b_div_sol {
+    padding: 10px;
+    width: 24%;
+    position: fixed;
+    background: rgb(248, 244, 255);
+    flex: 0 0 20% !important;
+  }
+  .b_logo_sol img {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+  }
+  .b_button_menu {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  .b_button_menu a {
+    color: rgb(121, 121, 121);
+    padding: 11px 15px;
+    border-radius: 10px;
+    width: 48px;
+  }
+  .b_button_menu span {
+    display: none;
+  }
+  .b_sol_delivery {
+    display: none;
+  }
+  .select {
+    display: none;
+  }
+  .b_div_sag {
+    width: 72%;
+    margin-left: 24%;
+  }
+  .b_input input {
+    display: none;
+  }
+  .b_input {
+    padding: 15px;
+    border-radius: 7px;
+    margin-left: 5%;
+  }
+  .b_div_sag_ilkdiv {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+  .b_sol_user {
+    margin-top: 19vh;
+  }
+  .b_sol_user img {
+    width: 100%;
+    margin-left: 5%;
+  }
+  /* ------------------------------------ */
+  h5 {
+    font-size: 15px !important;
+  }
+  .header a {
+    position: relative;
+    left: 17%;
+  }
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+  .explore_catagories_boxs {
+    width: 130px;
+    margin: 13px;
+  }
+  .explore_catagories_div {
+    display: flex;
+    overflow: auto;
+    width: 102%;
+  }
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+  .FEATURED_Product {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  /* ===================================================================================================================================================== 
+ ===================================================================================================================================================== */
+  .asian_boxs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 4%;
+  }
+  .asian_boxs img{
+    width: 550px;
+  }
 }

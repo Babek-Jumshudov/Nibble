@@ -1,5 +1,5 @@
 .b_sag_sol {
-  width: 100%;
+  width: 99%;
   height: 100vh;
 }
 .b_div_sol {
@@ -76,6 +76,9 @@ a:hover {
   border: none;
   background: #faf7f7;
 }
+.header a {
+  text-align: end;
+}
 select {
   word-wrap: normal;
   border: none;
@@ -149,25 +152,26 @@ select {
   font-size: 14px;
   font-weight: bold;
 }
-
-/* =============================================================TELEFON===================================================================================== */
-/* =============================================================TELEFON===================================================================================== */
-/* =============================================================TELEFON===================================================================================== */
+/*       */
+/* =============================================================TELEFON-0===================================================================================== */
+/* =============================================================TELEFON-0===================================================================================== */
+/* =============================================================TELEFON-0===================================================================================== */
 @media only screen and (min-width: 0px) {
   select {
     display: none;
   }
   .b_div_sol {
     padding: 10px;
-    width: 24%;
+    width: 17%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
+    overflow: hidden;
   }
   .b_logo_sol img {
     position: relative;
-    width: 70%;
-    margin-left: 20%;
+    width: 147%;
+    margin-left: 32%;
   }
   .b_button_menu {
     display: grid;
@@ -177,9 +181,13 @@ select {
 
   .b_button_menu a {
     color: rgb(121, 121, 121);
-    padding: 11px 15px;
     border-radius: 10px;
-    width: 48px;
+    margin-top: 45%;
+    margin-left: -15%;
+    width: 34px;
+    padding-left: 26%;
+    height: 34px;
+    padding-top: 12%;
   }
 
   .b_button_menu span {
@@ -193,86 +201,107 @@ select {
   .select {
     display: none;
   }
-
   .b_div_sag {
-    width: 79%;
-    margin-left: 22%;
+    width: 78%;
+    margin-left: 10%;
   }
-
+  .b_div_sag_products {
+    margin-left: 2%;
+    width: 100%;
+  }
   .b_input input {
     display: none;
   }
-
   .b_input {
     padding: 15px;
     border-radius: 7px;
-    margin-left: 5%;
+    margin-left: 6%;
   }
-
   .b_div_sag_ilkdiv {
     display: flex;
     text-decoration: none;
     justify-content: space-between;
     margin-bottom: 5%;
-    margin-left: 15px;
+    margin-left: 8%;
+    width: 110%;
   }
-
+  .header {
+    width: 93%;
+    margin-left: 5% !important;
+  }
   .b_sol_user {
-    margin-top: 33vh;
+    margin-top: -36vh;
+    padding-bottom: 1vh;
   }
   h5 {
     font-size: 15px !important;
   }
   .b_sol_user img {
-    width: 95%;
-    margin-top: 15vh;
+    width: 100%;
+    margin-top: 30vh;
   }
-
   .header a {
     position: relative;
     left: 32%;
   }
   /* =====================================================================================================================================================*/
-
   .explore_catagories_boxs {
     width: 130px;
     margin: 13px;
   }
-
   .explore_catagories_div {
     display: flex;
     overflow: auto;
-    width: 120%;
+    width: 116%;
+    position: relative;
+    left: 7%;
+  }
+  .explore_Product_line1 {
+    margin-left: -5%;
   }
   /* =====================================================================================================================================================*/
-
   .FEATURED_Product {
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
+    width: 116%;
+    position: relative;
+    left: 7%;
+  }
+  .FEATURED_Product_line1 {
+    margin-left: -5%;
   }
   /* =====================================================================================================================================================*/
-
   .asian_boxs {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: baseline;
     margin-top: 20px;
-    margin-left: 6%;
+    margin-left: 3%;
+  }
+  .asian_box svg {
+    position: relative;
+    left: 15%;
   }
   .asian_boxs img {
-    width: 110%;
-    margin-left: 4%;
+    width: 116%;
+    margin-left: 2%;
+  }
+  .asian_box span {
+    margin-left: 8%;
   }
 }
 
-/* =============================================================TABLET===================================================================================== */
-/* =============================================================TABLET===================================================================================== */
-/* =============================================================TABLET===================================================================================== */
+/* =============================================================TABLET-426===================================================================================== */
+/* =============================================================TABLET-426===================================================================================== */
+/* =============================================================TABLET-426===================================================================================== */
 @media only screen and (min-width: 426px) {
   select {
     display: none;
+  }
+  .asian_box svg {
+    left: -1%;
   }
   .b_div_sol {
     padding: 10px;
@@ -290,12 +319,14 @@ select {
     display: grid;
     justify-content: center;
     justify-items: center;
+    margin-top: 5%;
   }
   .b_button_menu a {
     color: rgb(121, 121, 121);
-    padding: 11px 15px;
+    padding: 10px 20px;
     border-radius: 10px;
-    width: 48px;
+    width: 60px;
+    height: 45px;
   }
   .b_button_menu span {
     display: none;
@@ -942,6 +973,8 @@ select {
 }
 
 /* =============================================================DESKTOP-2000===================================================================================== */
+/* =============================================================DESKTOP-2000===================================================================================== */
+/* =============================================================DESKTOP-2000===================================================================================== */
 @media only screen and (min-width: 2000px) {
   .b_sol_delivery svg {
     height: 600px;
@@ -955,5 +988,4 @@ select {
     width: 130%;
     margin-top: -10px;
   }
-  
 }

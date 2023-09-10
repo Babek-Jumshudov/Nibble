@@ -1,33 +1,3 @@
-/* .profile-section svg{
-  } */
-.profile-section {
-  position: relative;
-  left: 5%;
-}
-.profile-section ul {
-  position: relative;
-  left: 5%;
-}
-.profile-section {
-  width: 20%;
-}
-
-.modal-content {
-  position: absolute !important;
-  width: 400px !important;
-  margin-left: 35%;
-  margin-top: 13%;
-}
-.update-prefrences {
-  border: none;
-  width: 50%;
-  margin-left: 24.5%;
-  background: #503e9d;
-  color: white;
-  border-radius: 10px;
-  padding: 3%;
-}
-/* =============================================================== */
 .b_sag_sol {
   width: 100%;
   height: auto;
@@ -35,8 +5,7 @@
 .b_div_sol {
   padding: 10px;
   width: 20%;
-  height: 100% !important;
-  z-index: 1;
+  height: 100%;
   position: fixed;
   background: rgb(248, 244, 255);
   flex: 0 0 20% !important;
@@ -69,7 +38,6 @@
 .b_button_menu_active {
   background: #503e9d;
   color: white !important;
-  z-index: 1;
 }
 .b_sol_delivery {
   margin-top: -65%;
@@ -80,7 +48,7 @@
   margin: 20px 0px;
 }
 a:hover {
-  color: rgb(109, 37, 218) !important;
+  color: rgb(34, 10, 71) !important;
   text-decoration: none !important;
 }
 .b_sol_user {
@@ -131,24 +99,6 @@ select {
   margin-left: 5px;
 }
 /* =====================================================================================================================================================*/
-.explore_catagories_div {
-  display: flex;
-}
-.explore_catagories_boxs {
-  width: 130px;
-  margin: 13px;
-  margin-right: 20px;
-}
-.explore_catagories_div {
-  display: flex;
-  flex-direction: row;
-}
-.explore_Product_line1 {
-  display: flex;
-}
-.explore_Product_line2 {
-  display: flex;
-} /* =====================================================================================================================================================*/
 .FEATURED_Product {
   display: flex;
   flex-wrap: wrap;
@@ -175,6 +125,7 @@ select {
 .asian_boxs {
   display: flex;
   justify-content: space-around;
+  width: 33%;
 }
 .asian_boxs img {
   width: 300px;
@@ -186,9 +137,7 @@ select {
   font-size: 14px;
   font-weight: bold;
 }
-li {
-  display: inline;
-}
+/*       */
 /* =============================================================TELEFON-0===================================================================================== */
 /* =============================================================TELEFON-0===================================================================================== */
 /* =============================================================TELEFON-0===================================================================================== */
@@ -198,17 +147,11 @@ li {
   }
   .b_div_sol {
     padding: 10px;
-    width: 8%;
+    width: 17%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
     overflow: hidden;
-  }
-  .profile-section ul svg {
-    width: 600px;
-  }
-  .profile-section ul {
-    left: -40%;
   }
   .b_sag_sol {
     width: 98%;
@@ -248,8 +191,8 @@ li {
     display: none;
   }
   .b_div_sag {
-    width: 75%;
-    margin-left: 14%;
+    width: 78%;
+    margin-left: 10%;
   }
   .b_div_sag_products {
     margin-left: 2%;
@@ -261,17 +204,15 @@ li {
   .b_input {
     padding: 15px;
     border-radius: 7px;
-
-    margin-left: 10%;
-    margin-right: -5%;
+    margin-left: 6%;
   }
   .b_div_sag_ilkdiv {
     display: flex;
     text-decoration: none;
-    margin-bottom: 7%;
-    margin-left: -5%;
-    width: 100%;
-    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    width: 110%;
   }
   .header {
     width: 93%;
@@ -289,21 +230,6 @@ li {
   .header a {
     position: relative;
     left: 32%;
-  }
-  /* =====================================================================================================================================================*/
-  .explore_catagories_boxs {
-    width: 130px;
-    margin: 13px;
-  }
-  .explore_catagories_div {
-    display: flex;
-    overflow: auto;
-    width: 116%;
-    position: relative;
-    left: 7%;
-  }
-  .explore_Product_line1 {
-    margin-left: -5%;
   }
   /* =====================================================================================================================================================*/
   .FEATURED_Product {
@@ -349,23 +275,17 @@ li {
   .asian_box svg {
     left: -1%;
   }
-  .profile-section ul svg {
-    width: 600px;
-  }
-  .profile-section {
-    left: 0;
-  }
   .b_div_sol {
-    padding: 10px 5px 0 7px;
-    width: 7%;
+    padding: 10px;
+    width: 14%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
   }
   .b_logo_sol img {
     position: relative;
-    width: 147%;
-    margin-left: 32%;
+    width: 70%;
+    margin-left: 20%;
   }
   .b_button_menu {
     display: grid;
@@ -375,7 +295,7 @@ li {
   }
   .b_button_menu a {
     color: rgb(121, 121, 121);
-    padding: 11px 0 0 23px;
+    padding: 10px 20px;
     border-radius: 10px;
     width: 60px;
     height: 45px;
@@ -396,9 +316,6 @@ li {
   .b_input input {
     display: none;
   }
-  .profile-section ul svg {
-    width: 520px !important;
-  }
   .b_input {
     padding: 15px;
     border-radius: 7px;
@@ -409,7 +326,6 @@ li {
     text-decoration: none;
     justify-content: space-between;
     margin-bottom: 5%;
-    width: 85%;
   }
   .b_sol_user {
     margin-top: -1vh;
@@ -426,15 +342,7 @@ li {
     left: 9%;
   }
   /* =====================================================================================================================================================*/
-  .explore_catagories_boxs {
-    width: 130px;
-    margin: 13px;
-  }
-  .explore_catagories_div {
-    display: flex;
-    overflow: auto;
-    width: 102%;
-  }
+
   /* =====================================================================================================================================================*/
   .FEATURED_Product {
     display: flex;
@@ -495,7 +403,7 @@ li {
   }
   .b_logo_sol img {
     position: relative;
-    width: 100%;
+    width: 35%;
     margin-left: 17%;
   }
   .b_button_menu {
@@ -503,7 +411,7 @@ li {
     justify-content: start;
     justify-items: start;
     margin-top: 40px;
-    margin-left: 40%;
+    margin-left: 10px;
   }
   .b_button_menu a {
     color: rgb(121, 121, 121);
@@ -598,27 +506,6 @@ li {
   .header a {
     position: relative;
     left: -1%;
-  }
-  /* ===================================================================================================================================================== 
-     ===================================================================================================================================================== */
-  .explore_catagories_div {
-    display: flex;
-    width: 97%;
-  }
-  .explore_catagories_boxs {
-    width: 130px;
-    margin: 13px;
-    margin-right: 20px;
-  }
-  .explore_catagories_div {
-    display: flex;
-    flex-direction: row;
-  }
-  .explore_Product_line1 {
-    display: flex;
-  }
-  .explore_Product_line2 {
-    display: flex;
   }
   /* ===================================================================================================================================================== 
      ===================================================================================================================================================== */
@@ -810,24 +697,6 @@ li {
   }
   /* ===================================================================================================================================================== 
      ===================================================================================================================================================== */
-  .explore_catagories_boxs {
-    width: 130px;
-    margin: 13px;
-    margin-right: 20px;
-  }
-  .explore_catagories_div {
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
-  }
-  .explore_Product_line1 {
-    display: flex;
-  }
-  .explore_Product_line2 {
-    display: flex;
-  }
-  /* ===================================================================================================================================================== 
-     ===================================================================================================================================================== */
   .FEATURED_Product {
     display: flex;
     flex-wrap: wrap;
@@ -885,15 +754,7 @@ li {
     margin-bottom: -5%;
     margin-top: -5%;
   }
-  .explore_catagories_div {
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
-    width: 95%;
-  }
-  .profile-section ul svg {
-    width: 700px;
-  }
+
   .FEATURED_Product {
     display: flex;
     flex-wrap: wrap;
@@ -912,7 +773,7 @@ li {
     font-size: 16px;
   }
   .b_div_sag_ilkdiv {
-    margin-left: 0;
+    margin-left: -6%;
   }
 }
 
@@ -927,7 +788,7 @@ li {
     margin-left: -5%;
   }
   .b_div_sag {
-    margin-left: 16%;
+    margin-left: 17%;
     width: 73%;
   }
   .b_div_sol {
@@ -943,23 +804,23 @@ li {
     position: relative;
     left: 1%;
   }
+  .ASİAN_producs {
+    width: 102%;
+  }
+  .asian_boxs {
+    margin-left: 0;
+    width: 100% !important;
+  }
+  .asian_box span {
+    margin-left: 0;
+  }
   .header3 {
     position: relative;
-    left: -5.5%;
-  }
+    left: -3%;
+    width: 96% !important;
+}
   .select span {
     margin-left: -15px;
-  }
-  .b_sol_user {
-    position: absolute;
-    display: block;
-    width: 100%;
-  }
-  .b_sol_user img {
-    width: 70%;
-    margin-left: 12%;
-    margin-top: 20px;
-    display: block;
   }
   .nav_svg_2 {
     margin-left: 2%;
@@ -976,17 +837,28 @@ li {
     margin-bottom: -12%;
     margin-top: 5%;
   }
+  .b_logo_sol img {
+    width: 50%;
+  }
+  .b_sol_user {
+    position: absolute;
+    display: block;
+    width: 100%;
+  }
+  .b_sol_user img {
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 20px;
+    display: block;
+  }
   .b_button_menu {
     margin-left: 20%;
     margin-top: 30px;
     position: relative;
-  } 
+  }
   .b_button_menu a {
     width: 130%;
     margin-top: -15px;
-  }
-  .b_logo_sol img {
-    width: 50%;
   }
   .select span {
     margin-left: 0;
@@ -1008,14 +880,10 @@ li {
     width: 110%;
     margin-left: 0;
   }
-  .profile-section {
-    left: 13%;
-  }
-  .profile-section ul {
-    left: -15%;
-  }
-  .profile-section ul svg {
-    width: 900px !important;
+  .b_div_sag_products {
+    margin-left: 6%;
+    width: 103%;
+    margin-top: -3%;
   }
 }
 /* =============================================================DESKTOP-1440===================================================================================== */
@@ -1108,7 +976,7 @@ li {
     width: 400px;
     margin-left: 11%;
     margin-bottom: 0%;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
   .b_button_menu a {
     font-size: 25px;

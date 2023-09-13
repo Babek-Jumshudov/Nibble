@@ -198,7 +198,7 @@ li {
   }
   .b_div_sol {
     padding: 10px;
-    width: 18%;
+    width: 17%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
@@ -248,8 +248,8 @@ li {
     display: none;
   }
   .b_div_sag {
-    width: 100%;
-    margin-left: 5%;
+    width: 94%;
+    margin-left: 11%;
   }
   .b_div_sag_products {
     margin-left: 2%;
@@ -266,9 +266,11 @@ li {
     display: flex;
     text-decoration: none;
     margin-bottom: 7%;
-    margin-left: -5%;
-    width: 100%;
-    align-items: center;
+    margin-left: 12%;
+    width: 86%;
+    height: 8vh;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   .header {
     width: 93%;

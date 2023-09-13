@@ -198,14 +198,14 @@ li {
   }
   .b_div_sol {
     padding: 10px;
-    width: 8%;
+    width: 13%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
     overflow: hidden;
   }
   .profile-section ul svg {
-    width: 600px;
+    width: 800px;
   }
   .profile-section ul {
     left: -40%;
@@ -248,8 +248,8 @@ li {
     display: none;
   }
   .b_div_sag {
-    width: 75%;
-    margin-left: 14%;
+    width: 100%;
+    margin-left: 5%;
   }
   .b_div_sag_products {
     margin-left: 2%;
@@ -261,9 +261,6 @@ li {
   .b_input {
     padding: 15px;
     border-radius: 7px;
-
-    margin-left: 10%;
-    margin-right: -5%;
   }
   .b_div_sag_ilkdiv {
     display: flex;

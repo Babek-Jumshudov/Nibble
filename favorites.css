@@ -99,7 +99,7 @@ select {
   margin-left: 5px;
 }
 
-/* =============================================================TELEFON-0===================================================================================== */
+/* =============================================================TELEFON-0=====================================================================================
 /* =============================================================TELEFON-0===================================================================================== */
 /* =============================================================TELEFON-0===================================================================================== */
 @media only screen and (min-width: 0px) {
@@ -108,7 +108,7 @@ select {
   }
   .b_div_sol {
     padding: 10px;
-    width: 17%;
+    width: 8%;
     position: fixed;
     background: rgb(248, 244, 255);
     flex: 0 0 20% !important;
@@ -151,12 +151,17 @@ select {
   .select {
     display: none;
   }
+  .b_catagories{
+    overflow: auto;
+    width: 115%;
+  }
   .b_div_sag {
     width: 78%;
     margin-left: 10%;
   }
   .b_div_sag_products {
     width: 100%;
+    margin-left: 5%;
   }
   .b_input input {
     display: none;
@@ -191,6 +196,135 @@ select {
     position: relative;
     left: 32%;
   }
+  
+.s_contain {
+  width: 800px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 3%;
+}
+.s_contain div {
+  width: 117px;
+  height: 40px;
+  border-radius: 8px;
+  padding-top: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.s_contain P {
+  font-family: Open Sans;
+  font-size: 12px;
+  color: #a3a3a4;
+}
+.s_contain i {
+  font-size: 12px;
+  color: #a3a3a4;
+  margin-right: 5px;
+}
+.s_report {
+  background-color: #503e9d;
+}
+.s_report p {
+  color: #f7fafc;
+}
+.s_report i {
+  color: #f7fafc;
+}
+
+.card_card {
+  width: 300px;
+  height: 96px;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card_card img {
+  width: 95px;
+  height: 95px;
+  border-radius: 10px;
+  margin-left: -5%;
+}
+.link {
+  display: inline-block;
+  width: 85px;
+  height: 24px;
+  background-color: rgba(80, 62, 157, 0.1);
+  font-size: 11px;
+  font-family: open sans;
+  color: #503e9d;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.info {
+  height: 96px;
+  width: 216px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.info2 {
+  display: flex;  
+    width: 325%;
+  flex-wrap: wrap;
+}
+
+.info i {
+  font-size: 14px;
+  color: #a3a3a4;
+}
+.info span {
+  color: #a3a3a4;
+  font-size: 12px;
+}
+.info b {
+  color: black;
+}
+.fa-star {
+  color: gold !important;
+}
+.info div {
+  width: 215px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.location {
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards_card2 img {
+  width: 370% !important;
+  height: 176px;
+  border-radius: 18px;
+}
+
+.info2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards_card2{
+    width: 30%;
+    margin: 2%;
+}
+.cards2{
+    display: flex;
+    flex-direction: column;
+}
 }
 
 /* =============================================================TABLET-426===================================================================================== */

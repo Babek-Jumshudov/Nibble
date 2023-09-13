@@ -251,14 +251,15 @@ select {
     align-items: baseline;
     margin-top: 20px;
     margin-left: 3%;
+    width: 100%;
   }
   .asian_box svg {
     position: relative;
     left: 15%;
   }
   .asian_boxs img {
-    width: 116%;
-    margin-left: 2%;
+    width: 110%;
+    margin-left: 5%;
   }
   .asian_box span {
     margin-left: 8%;
